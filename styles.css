@@ -1,0 +1,45 @@
+body{
+    font-family: 'Inter', Roboto ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    color: white;
+    background-color: #1F2937;
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: column;
+    border: white 1px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 500px;
+    display: flex;
+    justify-content: space-between
+}
+
+.link-one,
+.link-two,
+.link-three {
+    color: white
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: x-large;
+    font-weight: bold;
+}
