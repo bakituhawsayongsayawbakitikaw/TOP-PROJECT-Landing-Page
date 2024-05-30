@@ -11,16 +11,22 @@ body{
 .header {
     color: white;
     background-color: #1F2937;
-    padding: 20px 300px;
-    display: flex;
-    flex-direction: column;
-    border: white 1px;
+    padding: 20px 0px;
+    /* padding: 20px 300px; */
+    /* display: flex;
+    flex-direction: column; */
 }
 
+.container {
+
+    /* width: 80%; */
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    /* padding: 0 15px; */
+}
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 100px;
 }
 
 .links {
@@ -33,7 +39,6 @@ body{
 .link-two,
 .link-three {
     color: white
-
 }
 
 a:link {
@@ -50,6 +55,10 @@ a:link {
     justify-content: space-between;
 }
 
+.hero {
+    padding: 100px 0;
+    background-color: #1F2937;
+}
 .hero-main-text {
     color: #f9faf8;
     font-size: 48px;
@@ -58,6 +67,7 @@ a:link {
 .hero-secondary-text {
     color: #e5e7eb;
     font-size: 18px;
+    padding: 15px 0px;
 
 }
 
@@ -70,14 +80,22 @@ a:link {
     align-items: center;
     background-color: gray;
     width: 520px;
-    height: 300px;
+    height: 240px;
 }
 .butt {
     color: white;
     font-size: 20px;
     background-color: #3882f6;
-    padding: 4px 25px;
+    padding: 4px 26px;
     border: none;
     outline: none;
     border-radius: 6px;
+}
+
+/* Some Random Information Section */
+.random-info {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 50px 0;
 }
