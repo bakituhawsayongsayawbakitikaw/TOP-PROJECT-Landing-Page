@@ -178,3 +178,14 @@ a:link {
   padding: 4px 40px;
   border-radius: 5px;
 }
+
+/* footer section */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  color: white;
+  padding: 35px 0px;
+  font-size: 18px;
+  font-weight: 300;
+}
