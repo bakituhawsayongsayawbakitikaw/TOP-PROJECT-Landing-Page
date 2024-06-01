@@ -93,7 +93,7 @@ a:link {
 /* random info section */
 .random-title {
   color: #1f2937;
-  padding: 35px 0px;
+  padding: 50px 0px;
   display: flex;
   justify-content: center;
   font-size: 36px;
@@ -101,21 +101,40 @@ a:link {
 }
 
 .info-container {
+  color: #1f2937;
   display: flex;
   justify-content: center;
   text-align: center;
-  gap: 55px;
+  gap: 50px;
 }
 .info-content {
   max-width: 200px;
 }
+.info-text {
+  padding: 11px 0px;
+}
 
 .info-placeholder {
   border: 4px solid #3882f6;
-  border-radius: 15px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 200px;
   height: 200px;
 }
+
+/* quote section */
+.quote-container {
+  border: 1px solid black; 
+  display: flex;
+  /* padding: 100px 50px; */
+  /* font-size: 36px; */
+  /* font-weight: 200; */
+  /* font-style: italic; */
+  /* background-color: #e5e7eb; */
+}
+.quote {
+  width: 900px;
+}
+
